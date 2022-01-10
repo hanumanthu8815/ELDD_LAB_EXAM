@@ -6,7 +6,7 @@
 #include <unistd.h>
 #include <errno.h>
 #include <sys/ioctl.h>
-#include "timer.h"
+#include "header.h"
 
 int main()
 {

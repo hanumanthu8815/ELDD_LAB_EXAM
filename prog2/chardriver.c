@@ -9,7 +9,7 @@
 #include<linux/timer.h>
 #include<linux/jiffies.h>
 #include<linux/gpio.h>
-#include "timer.h"
+#include "header.h"
 
 #define NAME question_2
 dev_t dev;
@@ -83,7 +83,7 @@ module_exit(prog_exit);
 MODULE_LICENSE("GPL");
 MODULE_AUTHOR("SURYA");
 
-int NMAE_open(struct inode *inode,struct file *filp)
+int NAME_open(struct inode *inode,struct file *filp)
 {
     printk("\n OPEN SYSTEM CALL...\n");
     return 0;
